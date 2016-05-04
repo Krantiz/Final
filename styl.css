@@ -1,0 +1,285 @@
+ /*BANNER*/
+ .ban {
+     width: 101%;
+     height: 366px;
+     margin: 0px;
+ }
+ .sub-banner {
+     width: 60%;
+     height: 347px;
+     margin-top: 20px;
+     float: right;
+     background-repeat: no-repeat;
+ }
+ .logo-img {
+     height: 137px;
+     margin-left: 40px;
+     width: 232px;
+ }
+ .parent-left {
+     float: left;
+     padding-left: 180px;
+     padding-top: 50px;
+ }
+ /*MENU*/
+ .menu {
+     float: left;
+     padding-top: 50px;
+ }
+ .nav {
+     text-decoration: none;
+ }
+ .menu a:hover {
+     text-decoration: underline;
+ }
+ .menu .active a {
+     color: #1a1ab8;
+ }
+ .menu li {
+     list-style: none;
+     font-size: 17px;
+ }
+ .menu a {
+     text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.5);
+     color: #777;
+     transition: color linear 0.15s;
+ }
+ .menu ul {
+     display: inline-block;
+ }
+ .menu2 {
+     text-decoration: none;
+ }
+ .sub-banner-text {
+     color: #ffffff;
+     padding: 10px;
+     margin-left: 20px;
+ }
+ /*Search-button*/
+ #search-class {
+     height: 70px;
+     margin-top: 10px;
+     text-align: right;
+ }
+ .search-combo {
+     margin-right: 360px;
+     width: 195px;
+     height: 25px;
+     float: right;
+     margin-top: 20px;
+     border: 1px solid;
+     border-radius: 3px;
+     border-color: ebebeb;
+ }
+ .search-control {
+     border: none;
+ }
+ .glyphicon.glyphicon-search {
+     padding-right: 5px;
+ }
+ input:focus {
+     outline: none;
+ }
+ .h3,
+ h3 {
+     font-size: 67px;
+     font-weight: bold;
+ }
+ p {
+     margin: 0 0 10px;
+     color: #00ffd8;
+     font-size: 16px;
+     font-weight: bold;
+ }
+  /*Touch */
+ 
+ #ex2 {
+     display: inline-block;
+     width: 200px auto;
+     text-align: center;
+ }
+ #boxstyle {
+     text-align: center;
+ }
+ .panel-body3 {
+     background: #18182c;
+     text-align: center;
+     padding-top: 25px;
+     padding-bottom: 25px;
+     height: 250px;
+ }
+ .quote-text31 {
+     color: #ffffff;
+     font-size: 20px;
+ }
+ .quote-text32 {
+     color: #ffffff;
+     font-size: 13px;
+     line-height: 1;
+     font-family: Poiret One, 1 Style;
+ }
+ /*DIV design*/
+ 
+ #design2 {
+     background-color: #ffffff;
+ }
+ #design3 {
+     background-color: #18182c;
+     height: 250px;
+ }
+ #design4 {
+     background-color: #ffffff;
+     text-align: center;
+ }
+ #design5 {
+     background-color: #00ffd8;
+     text-align: center;
+     height: 60px;
+ }
+ .btn {
+     background-color: #00ffd8;
+ }
+ #clr1 {
+     background-color: #18182c;
+     color: #ffffff;
+     width: 100px;
+ }
+ #clr {
+     background-color: blue;
+     color: #ffffff;
+ }
+ .src-image {
+     display: none;
+ }
+ .card {
+     text-align: center;
+ }
+ .card .avatar1,
+ .card .avatar2,
+ .card .avatar3 {
+     position: relative;
+     margin-top: 15px;
+     z-index: 100;
+ }
+ .card .avatar1 img,
+ .card .avatar2 img,
+ .card .avatar3 img {
+     width: 250px;
+     height: 150px;
+     margin: auto;
+ }
+ /*Qoute */
+ 
+ .qtstyle {
+     padding-top: 40px;
+     display: inline-block;
+ }
+ .quote-txt31 {
+     color: #18182c;
+     font-size: 13px;
+     margin: 20px;
+ }
+ .quote-txt32 {
+     color: #18182c;
+     font-size: 16px;
+     line-height: 1;
+     margin: 20px;
+     font-family: Poiret One, 1 Style;
+ }
+ /*Footer */
+ 
+ .footstyle {
+     padding-top: 20px;
+     display: inline-block;
+     font-size: 12px;
+     font-family: Poiret One, 1 Style;
+     color: #18182c;
+ }
+ 
+ /*.btn {
+     background-color: #00ffd8;
+ }
+ #clr1 {
+     background-color: #18182c;
+     color: #ffffff;
+ }
+ #clr {
+     background-color: blue;
+     color: #ffffff;
+ }*/
+ .try-ham {
+     display: none;
+ }
+ .glyphicon-home {
+     color: white;
+     font-size: 1.5em;
+     margin-top: 5px;
+     margin: 0 auto;
+ }
+ /*hamburger*/
+ 
+ @media screen and (max-width: 1200px) {
+     .sub-banner {
+         width: 100% !important;
+         height: 430px;
+         margin-top: 0px;
+         float: right;
+         background-repeat: no-repeat;
+     }
+     .search-combo {
+         margin-right: 30px;
+         width: 195px;
+         height: 25px;
+         float: right;
+         margin-top: 20px;
+         border: 1px solid;
+         border-radius: 3px;
+         border-color: ebebeb;
+     }
+     .card .avatar1 img,
+     .card .avatar2 img,
+     .card .avatar3 img {
+         width: 330px;
+         height: 150px;
+         margin: auto;
+     }
+ }
+ @media screen and (max-width: 640px) {
+     .menu {
+         display: none;
+     }
+     .try-ham {
+         display: block;
+         float: left;
+         padding: 10px;
+     }
+     .parent-left {
+         width: 100%;
+         padding-left: 0px !important;
+     }
+     .img-cover {
+         width: 100%;
+     }
+     .logo-img {
+         margin: 0 auto;
+     }
+     .menu2 {
+         display: none;
+     }
+     br {
+         display: none;
+     }
+     .hamburger {
+         width: 60px;
+         height: 54px;
+         background-color: #18182c;
+         border-radius: 8px;
+     }
+     p {
+         margin: 0 0 10px;
+         color: #00ffd8;
+         font-size: 16px;
+         font-weight: bold;
+         padding-top: 10px;
+     }
+ }
